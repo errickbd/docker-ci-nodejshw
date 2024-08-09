@@ -36,5 +36,5 @@ jobs:
 
       - name: Push Docker image to Docker Hub
         run: |
-          docker push ${{ env.DOCKER_USERNAME }}/nodejs-hw:1.0
+          docker push ${{ env.DOCKER_USERNAME }}/nodejs-hw-ci:1.0
 
