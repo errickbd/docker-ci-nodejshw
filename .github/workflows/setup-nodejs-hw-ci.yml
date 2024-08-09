@@ -32,7 +32,7 @@ jobs:
 
       - name: Tag Docker image
         run: |
-          docker tag nodejs-hw-ci:1.0 ${{ env.DOCKER_USERNAME }}/nodejs-hw:1.0
+          docker tag nodejs-hw-ci:1.0 ${{ env.DOCKER_USERNAME }}/nodejs-hw-ci:1.0
 
       - name: Push Docker image to Docker Hub
         run: |
